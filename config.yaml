@@ -1,8 +1,32 @@
-# EXAMPLE: Paths to raw data
-rawdata:
-  sample_A: example/data_A
-  sample_B: example/data_B
+pfam_db: /ebio/abt2_projects/ag-swart-loxodes/db/pfam/Pfam-A.hmm
 
-samplenames:
-  - sample_A
-  - sample_B
+assem:
+  N10      : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N10.Trinity.fasta"
+  N26      : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N26.Trinity.fasta"
+  N27      : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N27.Trinity.fasta"
+  N34      : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N34.Trinity.fasta"
+  N38      : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N38.Trinity.fasta"
+  N39      : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N39.Trinity.fasta"
+  N4       : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N4.Trinity.fasta"
+  N44      : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N44.Trinity.fasta"
+  N5       : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N5.Trinity.fasta"
+  N6       : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N6.Trinity.fasta"
+  N70      : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N70.Trinity.fasta"
+  N72      : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N72.Trinity.fasta"
+  anig_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.anig_yy.Trinity.fasta"
+  bame2_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.bame2_yy.Trinity.fasta"
+  bame_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.bame_yy.Trinity.fasta"
+  cx01_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cx01_yy.Trinity.fasta"
+  gacu_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.gacu_yy.Trinity.fasta"
+  gl04_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.gl04_yy.Trinity.fasta"
+  gsin2_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.gsin2_yy.Trinity.fasta"
+  gsin_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.gsin_yy.Trinity.fasta"
+  kn01_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.kn01_yy.Trinity.fasta"
+  lstr2_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.lstr2_yy.Trinity.fasta"
+  lstr_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.lstr_yy.Trinity.fasta"
+  lx11_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.lx11_yy.Trinity.fasta"
+  lx13_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.lx13_yy.Trinity.fasta"
+  rema_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.rema_yy.Trinity.fasta"
+  sroe_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.sroe_yy.Trinity.fasta"
+  tc01_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.tc01_yy.Trinity.fasta"
+  trac_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.trac_yy.Trinity.fasta"
