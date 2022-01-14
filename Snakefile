@@ -1,6 +1,6 @@
 rule all:
     input: 
-        expand('sixframe/{lib}.pep.hmmer_out', lib=config['assem'])
+        expand('porc_out/{lib}.porc.counts.tsv', lib=config['assem'])
 
 rule sixframe:
     input: lambda wildcards: config['assem'][wildcards.lib]
@@ -9,7 +9,7 @@ rule sixframe:
         pep="sixframe/{lib}.pep"
     conda: "envs/porc.yml"
     shell:
-        "/ebio/abt2_projects/ag-swart-loxodes/opt/PORC/six_frame_pep_and_cds.py {input} {output.cds} {output.pep}"
+        "/ebio/abt2_projects/ag-swart-karyocode/analysis/porc/opt/PORC/six_frame_pep_and_cds.py {input} {output.cds} {output.pep}"
 
 rule hmmer:
     input: "sixframe/{lib}.pep"
@@ -25,11 +25,12 @@ rule porc_main:
         cds="sixframe/{lib}.cds",
         hmmer_out="sixframe/{lib}.pep.hmmer_out"
     output:
-        matrix="porc/{lib}.mat",
-        porc="porc/{lib}.porc"
+        matrix="porc_out/{lib}.porc.mat",
+        counts="porc_out/{lib}.porc.counts.tsv",
+        porc="porc_out/{lib}.porc.out"
     conda: "envs/porc.yml"
     shell:
-        "/ebio/abt2_projects/ag-swart-loxodes/opt/PORC/porc_cod_usage.py --cds {input.cds} --hmmer {input.hmmer_out} --matrix {output.matrix} > {output.porc}"
+        "/ebio/abt2_projects/ag-swart-karyocode/analysis/porc/opt/PORC/porc_cod_usage.py --cds {input.cds} --hmmer {input.hmmer_out} --counts {output.counts} --matrix {output.matrix} > {output.porc}"
 
 # rule weblogo:
 #     input: "porc/{lib}.mat"
