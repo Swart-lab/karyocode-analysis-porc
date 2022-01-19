@@ -1,6 +1,7 @@
 rule all:
     input: 
-        expand('porc_out/{lib}.porc.counts.tsv', lib=config['assem'])
+        # expand('porc_out/{lib}.porc.counts.tsv', lib=config['assem'])
+        expand('porc_out/{lib}.porc.weblogo.png', lib=config['assem'])
 
 rule sixframe:
     input: lambda wildcards: config['assem'][wildcards.lib]
@@ -32,10 +33,10 @@ rule porc_main:
     shell:
         "/ebio/abt2_projects/ag-swart-karyocode/analysis/porc/opt/PORC/porc_cod_usage.py --cds {input.cds} --hmmer {input.hmmer_out} --counts {output.counts} --matrix {output.matrix} > {output.porc}"
 
-# rule weblogo:
-#     input: "porc/{lib}.mat"
-#     output: "porc/{lib}.weblogo.png"
-#     conda: "envs/porc.yml"
-#     shell:
-#         "weblogo -n64 --scale-width no -c chemistry -U probability -A protein -F png < {input} > {output}"
+rule weblogo:
+    input: "porc_out/{lib}.porc.mat",
+    output: "porc_out/{lib}.porc.weblogo.png"
+    conda: "envs/porc.yml"
+    shell:
+        "weblogo -n64 --scale-width no -c chemistry -U probability -A protein -F png < {input} > {output}"
 
