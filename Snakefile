@@ -30,8 +30,10 @@ rule porc_main:
         counts="porc_out/{lib}.porc.counts.tsv",
         porc="porc_out/{lib}.porc.out"
     conda: "envs/porc.yml"
+    params:
+        codon_threshold=0
     shell:
-        "/ebio/abt2_projects/ag-swart-karyocode/analysis/porc/opt/PORC/porc_cod_usage.py --cds {input.cds} --hmmer {input.hmmer_out} --counts {output.counts} --matrix {output.matrix} > {output.porc}"
+        "/ebio/abt2_projects/ag-swart-karyocode/analysis/porc/opt/PORC/porc_cod_usage.py --codon_threshold {params.codon_threshold} --cds {input.cds} --hmmer {input.hmmer_out} --counts {output.counts} --matrix {output.matrix} > {output.porc}"
 
 rule weblogo:
     input: "porc_out/{lib}.porc.mat",
