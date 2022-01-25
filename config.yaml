@@ -30,6 +30,13 @@ assem:
   sroe_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.sroe_yy.Trinity.fasta"
   tc01_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.tc01_yy.Trinity.fasta"
   trac_yy  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.trac_yy.Trinity.fasta"
+  s4111_ksd: "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.s4111_ksd.Trinity.fasta"
+  s4110_ksd: "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.s4110_ksd.Trinity.fasta"
+  sa331_kh : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.sa331_kh.Trinity.fasta"
+  cmag_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cmag_mm.Trinity.fasta"
+  pard_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.pard_mm.Trinity.fasta"
+  sa332_kh : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.sa332_kh.Trinity.fasta"
+  s4112_ksd : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.s4112_ksd.Trinity.fasta"
   polyA_N10 : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N10.polyA_min7.fasta"
   polyA_N26 : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N26.polyA_min7.fasta"
   polyA_N27 : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N27.polyA_min7.fasta"
@@ -59,3 +66,9 @@ assem:
   # polyA_sroe_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.sroe_yy.polyA_min7.fasta" # too few sequences
   polyA_tc01_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.tc01_yy.polyA_min7.fasta"
   polyA_trac_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.trac_yy.polyA_min7.fasta"
+
+  # stentor coeruleus - transcriptome assembly not available, using CDS sequences from ciliate.org instead
+  # http://stentor.ciliate.org/system/downloads/S_coeruleus_Nov2016_CDS.fasta
+  scoe_cds_ms : "/ebio/abt2_projects/ag-swart-karyocode/db/S_coeruleus_Nov2016_CDS.fasta"
+  # blepharisma - use CDS from gene preds instead of assembling transcriptome  de novo
+  bsto_cds_ms : "/ebio/abt2_projects/ag-swart-blepharisma-raw/production/B_stoltei_ATCC/MAC/gene_prediction_v2.0/Bsto_ATCC_MAC_cleaned.0.2.final.CDS.fa"
