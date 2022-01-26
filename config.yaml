@@ -67,8 +67,22 @@ assem:
   polyA_tc01_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.tc01_yy.polyA_min7.fasta"
   polyA_trac_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.trac_yy.polyA_min7.fasta"
 
-  # stentor coeruleus - transcriptome assembly not available, using CDS sequences from ciliate.org instead
+  polyA_s4110_ksd: "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.s4110_ksd.polyA_min7.fasta"
+  polyA_s4111_ksd: "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.s4111_ksd.polyA_min7.fasta"
+  polyA_s4112_ksd: "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.s4112_ksd.polyA_min7.fasta"
+  polyA_sa331_kh : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.sa331_kh.polyA_min7.fasta"
+  polyA_sa332_kh : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.sa332_kh.polyA_min7.fasta"
+  polyA_cmag_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cmag_mm.polyA_min7.fasta"
+  polyA_pard_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.pard_mm.polyA_min7.fasta"
+
+  # Stentor coeruleus - transcriptome assembly not available, using CDS sequences from ciliate.org instead
   # http://stentor.ciliate.org/system/downloads/S_coeruleus_Nov2016_CDS.fasta
   scoe_cds_ms : "/ebio/abt2_projects/ag-swart-karyocode/db/S_coeruleus_Nov2016_CDS.fasta"
-  # blepharisma - use CDS from gene preds instead of assembling transcriptome  de novo
+  # Blepharisma - use CDS from gene preds instead of assembling transcriptome  de novo
   bsto_cds_ms : "/ebio/abt2_projects/ag-swart-blepharisma-raw/production/B_stoltei_ATCC/MAC/gene_prediction_v2.0/Bsto_ATCC_MAC_cleaned.0.2.final.CDS.fa"
+  # Tetrahymena thermophila
+  # http://www.ciliate.org/system/downloads/3-upd-cds-fasta-2021.fasta
+  tthe_cds    : "/ebio/abt2_projects/ag-swart-karyocode/db/3-upd-cds-fasta-2021.fasta"
+  # Paramecium tetraurelia
+  # https://paramecium.i2bc.paris-saclay.fr/files/Paramecium/tetraurelia/51/annotations/ptetraurelia_mac_51/ptetraurelia_mac_51_annotation_v2.0.transcript.fa
+  ptet_cds : "/ebio/abt2_projects/ag-swart-karyocode/db/ptetraurelia_mac_51_annotation_v2.0.transcript.fa"
