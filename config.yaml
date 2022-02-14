@@ -37,6 +37,10 @@ assem:
   pard_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.pard_mm.Trinity.fasta"
   sa332_kh : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.sa332_kh.Trinity.fasta"
   s4112_ksd : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.s4112_ksd.Trinity.fasta"
+  bjap_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.bjap_mm.Trinity.fasta"
+  spol_upp : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.spol_upp.Trinity.fasta"
+  bsp_mk   : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity_se.bsp_mk.Trinity.fasta"
+
   polyA_N10 : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N10.polyA_min7.fasta"
   polyA_N26 : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N26.polyA_min7.fasta"
   polyA_N27 : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N27.polyA_min7.fasta"
@@ -74,6 +78,9 @@ assem:
   polyA_sa332_kh : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.sa332_kh.polyA_min7.fasta"
   polyA_cmag_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cmag_mm.polyA_min7.fasta"
   polyA_pard_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.pard_mm.polyA_min7.fasta"
+  polyA_bjap_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.bjap_mm.polyA_min7.fasta"
+  polyA_spol_upp : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.spol_upp.polyA_min7.fasta"
+  polyA_bsp_mk   : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.bsp_mk.polyA_min7.fasta"
 
   # Stentor coeruleus - transcriptome assembly not available, using CDS sequences from ciliate.org instead
   # http://stentor.ciliate.org/system/downloads/S_coeruleus_Nov2016_CDS.fasta
