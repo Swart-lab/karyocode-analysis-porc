@@ -40,6 +40,11 @@ assem:
   bjap_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.bjap_mm.Trinity.fasta"
   spol_upp : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.spol_upp.Trinity.fasta"
   bsp_mk   : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity_se.bsp_mk.Trinity.fasta"
+  smin_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.smin_yy.Trinity.fasta"
+  fsal_mm : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.fsal_mm.Trinity.fasta"
+  cl01_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cl01_yy.Trinity.fasta"
+  cvir_mm : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cvir_mm.Trinity.fasta"
+  cvir_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cvir_yy.Trinity.fasta"
 
   polyA_N10 : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N10.polyA_min7.fasta"
   polyA_N26 : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.N26.polyA_min7.fasta"
@@ -70,6 +75,9 @@ assem:
   # polyA_sroe_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.sroe_yy.polyA_min7.fasta" # too few sequences
   polyA_tc01_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.tc01_yy.polyA_min7.fasta"
   polyA_trac_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.trac_yy.polyA_min7.fasta"
+  polyA_smin_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.smin_yy.polyA_min7.fasta"
+  polyA_cl01_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cl01_yy.polyA_min7.fasta"
+  polyA_cvir_yy : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cvir_yy.polyA_min7.fasta"
 
   polyA_s4110_ksd: "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.s4110_ksd.polyA_min7.fasta"
   polyA_s4111_ksd: "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.s4111_ksd.polyA_min7.fasta"
@@ -79,6 +87,8 @@ assem:
   polyA_cmag_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cmag_mm.polyA_min7.fasta"
   polyA_pard_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.pard_mm.polyA_min7.fasta"
   polyA_bjap_mm  : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.bjap_mm.polyA_min7.fasta"
+  polyA_fsal_mm : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.fsal_mm.polyA_min7.fasta"
+  polyA_cvir_mm : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.cvir_mm.polyA_min7.fasta"
   polyA_spol_upp : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.spol_upp.polyA_min7.fasta"
   polyA_bsp_mk   : "/ebio/abt2_projects/ag-swart-karyocode/assembly/trinity.bsp_mk.polyA_min7.fasta"
 
